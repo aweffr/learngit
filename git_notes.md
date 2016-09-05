@@ -24,3 +24,18 @@ Git is a tool under Linux/Unix environment, so that it need simulation environme
 
 - How it work:
 - HEAD is just a pointer which points to different commits. When we use reset, the HEAD points to the certain commit version.
+
+- A **key difference** between git and other version control system is that what git tracks is **diff** rather than **file**.
+
+- **How to draw back the change text in the working area**
+- git checkout -- (file)
+- this command will make this file back to last version of (git add / git commit).
+- **Draw back the change text already staged**
+- git reset HEAD (file)
+- e.g: git reset HEAD readme.txt
+- this command called "unstage"
+
+- *To be contine...*
+
+---
+[NextChapter](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758392816224cafd33c44b4451887cc941e6716805c000)
